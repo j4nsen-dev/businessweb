@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BusinessWeb</title>
+
+    <!-- swipper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header-first">
+      <nav class="container">
+        <a class="logo" href="#home">Business<span>Name</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#depositions">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu">
+          <img src="assets/icons/menu.svg" alt="menu" />
+        </div>
+        <div class="toggle icon-close">
+          <img src="assets/icons/close.svg" alt="close-menu" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home ------------------------------------------------------------------------->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+              alt="banner"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Lorem Ipsum is simple text</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a class="button" href="#">Agendar consulta</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- About ------------------------------------------------------------------------->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
+              possimus, quia in dolorem doloremque architecto vel aperiam maxime
+              suscipit quam dolores, voluptates cumque at quidem! Animi
+              asperiores error laboriosam accusantium.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos harum quod perferendis sapiente, modi cumque
+              accusantium facere distinctio debitis, voluptatem exercitationem?
+              Similique error perspiciatis laboriosam sint quia, aliquid
+              excepturi eum.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Adipisci, sint, expedita labore, quas odit commodi necessitatibus
+              eveniet exercitationem alias debitis repellat. Nisi minima
+              reiciendis blanditiis! Cumque eum provident rerum voluptas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Services ------------------------------------------------------------------------->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              expedita sunt qui, esse pariatur quam a, odit tenetur illo enim
+              voluptatibus optio...
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <div class="icon-trim">
+                <img src="assets/icons/trim.svg" alt="" />
+              </div>
+              <h3 class="title">Lorem Ipsum 3</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi fugiat eos veniam tempora consequuntur, expedita sint
+                exercitationem nulla.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="icon-trim">
+                <img src="assets/icons/trim.svg" alt="" />
+              </div>
+              <h3 class="title">Lorem Ipsum 3</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi fugiat eos veniam tempora consequuntur, expedita sint
+                exercitationem nulla.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="icon-trim">
+                <img src="assets/icons/trim.svg" alt="" />
+              </div>
+              <h3 class="title">Lorem Ipsum 3</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi fugiat eos veniam tempora consequuntur, expedita sint
+                exercitationem nulla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Depositions ------------------------------------------------------------------------->
+      <section class="section" id="depositions">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos</h2>
+          </header>
+          <div class="depositions swiper-container">
+            <div class="swiper-wrapper">
+              <div class="deposition swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque earum numquam autem officia nobis velit nesciunt
+                    facilis nemo ratione reprehenderit eos excepturi quidem
+                    nostrum.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/images/jansen-deposition.png"
+                      alt="foto de Jansen Nalim"
+                    />
+                    Jansen Nalim
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="deposition swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque earum numquam autem officia nobis velit nesciunt
+                    facilis nemo ratione reprehenderit eos excepturi quidem
+                    nostrum.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/images/jansen-deposition.png"
+                      alt="foto de Jansen Nalim"
+                    />
+                    Jansen Nalim
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="deposition swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque earum numquam autem officia nobis velit nesciunt
+                    facilis nemo ratione reprehenderit eos excepturi quidem
+                    nostrum.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/images/jansen-deposition.png"
+                      alt="foto de Jansen Nalim"
+                    />
+                    Jansen Nalim
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Contact ------------------------------------------------------------------------->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato conosco!</h2>
+            <p>
+              Entre em contato com conosco, queremos tirar suas dúvidas, ouvir
+              suas críticas e sugestões
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5521966144449&text=Oi! Gostaria de agendar uma consulta"
+              target="_blank"
+              class="button"
+              ><img
+                src="assets/icons/whatsapp-white.svg"
+                alt="icone whatsapp"
+              />Entrar em contato</a
+            >
+          </div>
+
+          <div class="info-contact">
+            <ul class="grid">
+              <li>
+                <img src="assets/icons/phone.svg" alt="icon phone" /> 21
+                96614-4449
+              </li>
+              <li>
+                <img src="assets/icons/map-pin.svg" alt="icon map pin" /> Rua
+                sena borges, 2155
+              </li>
+              <li>
+                <img src="assets/icons/mail.svg" alt="icon mail" />
+                jansen.nalim@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" id="white-logo" href="#home"
+            >Business<span>Name</span>.</a
+          >
+          <p>@2021 BusinessName</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com" target="_blank"
+            ><img src="assets/icons/instagram.svg" alt=""
+          /></a>
+          <a href="https://facebook.com" target="_blank"
+            ><img src="assets/icons/facebook.svg" alt=""
+          /></a>
+          <a href="https://youtube.com" target="_blank"
+            ><img src="assets/icons/youtube.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"
+      ><img src="assets/icons/arrow-up.svg" alt="seta para cima"
+    /></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main js -->
+    <script src="main.js"></script>
+  </body>
+</html>
